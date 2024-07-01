@@ -3291,16 +3291,19 @@ body {
     margin-right: 10px;
 }
 
+
 .submissions-container {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px; /* Adjust as needed */
     }
+    
 #submit-counter {
         font-size: 24px; /* Adjust the size as needed */
         font-weight: bold; /* Make the text bold */
         text-align: center;
+        margin: 20px 0; /* Adjust as needed */
     }
 
 .contact-form {
