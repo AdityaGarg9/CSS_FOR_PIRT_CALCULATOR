@@ -2374,10 +2374,10 @@ figcaption {
     color: white;
     border: none;
     padding: 10px;
-    width: 100px; /* set a fixed width if needed */
-    height: 40px; /* set a fixed height if needed */
+    width: 110px; /* set a fixed width if needed */
+    height: 50px; /* set a fixed height if needed */
     text-align: center;
-    line-height: 40px; /* make the text vertically centered */
+    line-height: 0px; /* make the text vertically centered */
     border-radius: 5px; /* add border-radius if needed */
     font-size: 16px; /* set the font size */
 }
