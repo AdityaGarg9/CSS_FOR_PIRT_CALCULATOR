@@ -3671,6 +3671,10 @@ body {
   display: flex;
 }
 
+.minor-heading {
+  justify-content: center;
+}
+
 .section-heading.section-heading2 {
   justify-content: center;
 }
