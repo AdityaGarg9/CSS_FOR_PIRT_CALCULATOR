@@ -2368,6 +2368,15 @@ figcaption {
   background-color: #0056b3;
 }
 
+#submit-button-grey {
+    display: block;
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: not-allowed;
+}
+
 #submit-button {
   background-color: #ff0000; /* Bright red */
   color: #fff;
