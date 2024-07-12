@@ -2368,24 +2368,29 @@ figcaption {
   background-color: #0056b3;
 }
 
-#submit-button-grey {
+#submit-button-grey, #submit-button {
     display: block;
-    background-color: grey;
+    background-color: grey; /* default for grey button */
     color: white;
     border: none;
     padding: 10px;
-    cursor: not-allowed;
+    width: 100px; /* set a fixed width if needed */
+    height: 40px; /* set a fixed height if needed */
+    text-align: center;
+    line-height: 40px; /* make the text vertically centered */
+    border-radius: 5px; /* add border-radius if needed */
+    font-size: 16px; /* set the font size */
 }
 
 #submit-button {
-  background-color: #ff0000; /* Bright red */
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  margin: 5px;
-  cursor: pointer;
-  border-radius: 5px;
+    background-color: red; /* override for red button */
+    display: none; /* initially hidden */
 }
+
+#submit-button-grey {
+    cursor: not-allowed;
+}
+
 
 #submit-button:hover {
   background-color: #cc0000; /* Darker red on hover */
