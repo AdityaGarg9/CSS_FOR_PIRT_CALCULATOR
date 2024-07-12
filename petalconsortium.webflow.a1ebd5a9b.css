@@ -2369,14 +2369,19 @@ figcaption {
 }
 
 #submit-button {
-  background-color: #ff0000; /* Bright red */
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  margin: 5px;
-  cursor: pointer;
-  border-radius: 5px;
-}
+        background-color: rgba(128, 128, 128, 0.5); /* Translucent gray */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: not-allowed; /* Change cursor to indicate non-clickable */
+        transition: background-color 0.3s; /* Smooth transition */
+        display: block; /* Always visible */
+    }
+
+#submit-button.active {
+        background-color: red; /* Original shade of red */
+        cursor: pointer; /* Change cursor to indicate clickable */
 
 #submit-button:hover {
   background-color: #cc0000; /* Darker red on hover */
